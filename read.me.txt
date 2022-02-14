@@ -1,0 +1,3 @@
+This portfolio file is by HARSH KUMAR
+Site is responsive and run smooth on any device
+HTML CSS JS is the tech stack used...
