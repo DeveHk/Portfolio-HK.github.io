@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: #fbf8cc;
+}
+
+.container {
+  display: flex;
+}
+.sidebar {
+  font-family: "M PLUS Code Latin", sans-serif;
+  font-weight: 900;
+  background-color: #e9d8a6;
+  width: 400px;
+  min-height: 100vh;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 2em;
+  padding: 33px 0;
+}
+
+.main {
+  background-color: #fbf8cc;
+  width: 100vw;
+  min-height: 100vh;
+  padding-left: 50px;
+}
+.introContainer {
+  background-color: inherit;
+  height: 60vh;
+  width: 80vw;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.myInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2em;
+}
+.hello {
+  font-size: 1.5em;
+  font-family: "Source Code Pro", monospace;
+}
+.name {
+  font-size: 2.5em;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  color: #d62828;
+}
+.about {
+  font-family: "Source Code Pro", monospace;
+}
+.moreAbout {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.btn button {
+  font-family: "Rubik", sans-serif;
+  margin-top: 1em;
+  width: 100px;
+  padding: 8px;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 3px;
+  cursor: pointer;
+  color: beige;
+  background-color: #0a9396;
+}
+.btn button:hover {
+  background-color: beige;
+  color: black;
+}
+.myPic img {
+  height: 60vh;
+}
+
+.contactFrm {
+  padding: 20px;
+  margin-left: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+.contactFrm h1 {
+  padding-top: 100px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#emailHelp {
+  font-size: 0.8em;
+}
+.frmMember {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+}
+.frmMemControl {
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 2px;
+  height: 2em;
+}
+#q {
+  height: 5em;
+  width: inherit;
+}
+
+.intro {
+  padding: 10px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.breif {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #003049;
+}
+.inf {
+  font-family: "Source Code Pro", monospace;
+}
+
+.intro h2,
+.skills h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 2em;
+  color: #081c15;
+}
+
+.skillsIn {
+  display: flex;
+  justify-content: space-around;
+}
+.SkillTitle {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+}
+.progress {
+  width: 300px;
+  height: 20px;
+  background-color: #e6ccb2;
+  border-radius: 20px;
+}
+.progress-bar {
+  text-align: center;
+  border-radius: 20px 20px 0 20px;
+  height: 20px;
+  font-family: "Rubik", sans-serif;
+  color: aliceblue;
+  font-weight: 600;
+  width: 50%;
+  background-color: #7f5539;
+}
+
+#triple {
+  width: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+#triple:hover,
+button:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+.hideSidebar {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .sidebarHid {
+    position: absolute;
+    display: none;
+  }
+  .main {
+    height: 100vh;
+  }
+  .introContainer {
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .frmMemControl,
+  #q {
+    width: 200px;
+  }
+}
