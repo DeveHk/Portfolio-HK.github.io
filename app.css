@@ -186,6 +186,20 @@ button:hover {
 .hideSidebar {
   display: none;
 }
+aside {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background-color: #fb8500;
+  border-radius: 20px 0 0 20px;
+}
+.tag {
+  width: 50px;
+}
+.tag:hover {
+  transition: all 0.2s;
+  transform: scale(1.2);
+}
 @media only screen and (max-width: 600px) {
   .sidebarHid {
     position: absolute;
