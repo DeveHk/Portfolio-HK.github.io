@@ -226,4 +226,7 @@ aside {
   #q {
     width: 200px;
   }
+  .myPic img {
+    height: 400px;
+  }
 }
