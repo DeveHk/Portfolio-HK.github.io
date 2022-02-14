@@ -134,7 +134,11 @@ body {
 .inf {
   font-family: "Source Code Pro", monospace;
 }
-
+.SkillS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .intro h2,
 .skills h2 {
   text-align: center;
@@ -198,9 +202,11 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
-  .skills {
+  .SkillS {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
   .frmMemControl,
   #q {
